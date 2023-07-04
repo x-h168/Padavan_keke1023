@@ -23,7 +23,6 @@ VEND=$(ROOTDIR)/vendors
 dir_v := $(VEND)/$(CONFIG_VENDOR)/.
 
 # Note: the all and clean targets are not normally used,
-# since user/Makefile jumps directory to the product directory
-all image clean romfs romfs.post:
+# since user/Makefile jumps directory to the product directory all image clean romfs romfs.post:
 	$(MAKE) -C $(dir_v) dir_v=$(dir_v) -f $(VEND)/vendors-common.mak $@
 
