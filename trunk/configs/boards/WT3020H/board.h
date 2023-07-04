@@ -7,7 +7,7 @@
 #define BOARD_VENDOR_URL	"http://www.nexx.com.cn/"
 #define BOARD_MODEL_URL		"http://www.nexx.com.cn/index.php/home/detail?pid=199"
 #define BOARD_BOOT_TIME		20
-#define BOARD_FLASH_TIME	90
+#define BOARD_FLASH_TIME	120
 #define BOARD_GPIO_BTN_RESET	1
 #undef  BOARD_GPIO_BTN_WPS
 #undef  BOARD_GPIO_LED_ALL
