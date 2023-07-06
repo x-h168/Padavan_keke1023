@@ -44,7 +44,7 @@
 #define DEF_WLAN_2G_PSK		"12345678"
 #define DEF_WLAN_5G_PSK		"12345678"
 
-#define DEF_ROOT_PASSWORD	"admin"
+#define DEF_ROOT_PASSWORD	"root"
 #define DEF_SMB_WORKGROUP	"WORKGROUP"
 #define DEF_TIMEZONE		"CST-8"
 #define DEF_NTP_SERVER0		"ntp1.aliyun.com"
